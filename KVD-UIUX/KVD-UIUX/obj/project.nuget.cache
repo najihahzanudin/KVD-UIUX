@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ctOJwMe4fyk=",
+  "dgSpecHash": "S+5069O8dqw=",
   "success": true,
   "projectFilePath": "D:\\KVD\\KVD-UIUX\\KVD-UIUX\\KVD-UIUX\\KVD-UIUX.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Najihah Zanudin\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512"
+  ],
   "logs": []
 }

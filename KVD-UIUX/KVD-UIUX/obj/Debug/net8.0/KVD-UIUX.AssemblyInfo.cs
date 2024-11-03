@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KVD-UIUX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd9d293b0ee0db548054f89f9e6491d9620f758e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e84005ee7460661df3d9d09dfd9c460cf31f5da0")]
 [assembly: System.Reflection.AssemblyProductAttribute("KVD-UIUX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KVD-UIUX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

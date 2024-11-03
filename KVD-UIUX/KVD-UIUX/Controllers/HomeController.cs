@@ -18,6 +18,16 @@ namespace KVD_UIUX.Controllers
             return View();
         }
 
+        public IActionResult TicketNotify()
+        {
+            return View();
+        }
+
+        public IActionResult TicketNumber()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

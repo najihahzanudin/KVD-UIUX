@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Ticket Number";
+}
+
+<div class="d-flex min-vh-100 align-items-center justify-content-center">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h5 class="d-block mb-3 text-white">Sila masukkan nombor telefon anda untuk menerima notis tiket melalui SMS</h5>
+                <h7 class="d-block mb-4 text-white">Please enter your mobile number to receive ticket notification via SMS</h7>
+
+                <div class="d-grid gap-3 w-50 mx-auto">
+
+                    <label class="custom-label">
+                        <p><b>Nombor giliran anda</b> <br />Your ticket number</p>
+                        <label class="custom-label2"><b>1257</b></label>
+
+                        <p><b>Masa tiket dikeluarkan </b><br />Time of ticket issued</p>
+                    </label>
+
+                    <label class="custom-label3">
+                        <b>14/05/2024 | 10.45 AM</b>
+                    </label>
+   
+                    <p class="text-warning"><b>Jumlah pelanggan di hadapan</b> <br />Number of customer ahead</p>
+                    <label class="custom-label4">5</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function selectCountry(selectedItem) {
+        document.getElementById('countrySelected').textContent = selectedItem;
+    }
+
+    document.getElementById('getTicketButton').addEventListener('click', function () {
+        const currentSelection = document.getElementById('countrySelected').textContent;
+
+        const finalSelection = currentSelection ? currentSelection : 'Malaysia';
+        const mobileNumber = document.getElementById('mobileNumber').value;
+    });
+</script>
