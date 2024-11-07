@@ -29,16 +29,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    function selectCountry(selectedItem) {
-        document.getElementById('countrySelected').textContent = selectedItem;
-    }
-
-    document.getElementById('getTicketButton').addEventListener('click', function () {
-        const currentSelection = document.getElementById('countrySelected').textContent;
-
-        const finalSelection = currentSelection ? currentSelection : 'Malaysia';
-        const mobileNumber = document.getElementById('mobileNumber').value;
-    });
-</script>
